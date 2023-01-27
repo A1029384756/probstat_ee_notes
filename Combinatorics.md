@@ -1,5 +1,5 @@
 ### Staging Rule
-- If an outcome is determined in two stages, with $n$ possibilities for stage $1$ and $m$ possibilities for stage $2$,  $\text{outcomes} = n*m$.
+- If an outcome is determined in two stages, with $n$ possibilities for stage $1$ and $m$ possibilities for stage $2$, $\text{outcomes} = n*m$.
 - **Ex:** Buy a car. 
 	- Colors: yellow, red, and blue.
 	- Displacement: 1.7, 2.2, 2.8, 3.5 liters
@@ -23,7 +23,7 @@
 	- What is the *probability* that the password app will give a string of *all* vowels?
 	- $P(\text{all vowels}) = \frac{5^4}{26^4} = 0.00137$
 - **Ex:** # of Virginia license plates (3 letters and 4 digits)
-	- $\text{plates} = 26 * 26* 26 * 10 * 10 * 10 * 10$ <- 1st letter times 2nd letter times 3rd letter times first digit times second digit and so on (likelihood of each)
+	- $\text{plates} = 26 * 26* 26 * 10 * 10 * 10 * 10$ ← 1st letter times 2nd letter times 3rd letter times first digit times second digit and so on (likelihood of each)
 	- $175,760,000$ plates
 
 
@@ -41,9 +41,9 @@
 		- Silver medal possibilities = $11$
 		- Bronze medal possibilities = $10$
 		- $\text{num announcements} = 12 * 11 * 10 = 1320$
-- **Notation:** $n^{(k)}$ -> Parentheses indicate permutation
-- **Notation:** $_nP_k$ -> Used in textbook
-- **Notation:** $P_{(n, k)}$ -> Used by calculators
+- **Notation:** $n^{(k)}$ → Parentheses indicate permutation
+- **Notation:** $_nP_k$ → Used in textbook
+- **Notation:** $P_{(n, k)}$ → Used by calculators
 - "$n$ permute $k$"
 
 ### Complete lists without replacement
@@ -53,8 +53,8 @@
 - **Ex:** After awards, judges rank the runner's up.
 - All possible rankings = $12!$
 - Before lunch, medals are awarded and after lunch, runner's up are ranked
-- Before much medals -> $12^{(3)}$
-- After lunch medals -> $9!$
+- Before lunch medals → $12^{(3)}$
+- After lunch medals → $9!$
 - Total permutations = $12^{(3)} * 9!$
 
 ### Ordered sets of $k$ things chosen without replacement from $n$ possibilities
@@ -65,9 +65,9 @@
 	- $_nC_k$
 	- $C_{(n, k)}$
  - 12 products in a contest, judges assign Gold, Silver, and Bronze medals.
-	Stage 1 -> Before lunch, judges choose 3 finalists
-	Stage 2 -> After lunch, the 3 are given Gold, Silver, and Bronze medals
-	 -  $12^{(3)} = ({12 \atop 3})*3!$ <- No order
+	Stage 1 → Before lunch, judges choose 3 finalists
+	Stage 2 → After lunch, the 3 are given Gold, Silver, and Bronze medals
+	 -  $12^{(3)} = ({12 \atop 3})*3!$ ← No order
 	 - $({12 \atop 3}) = \frac{12^{(3)}}{3!}=220$
  - Generally, $({n \atop k}) = \frac{n^{(k)}}{k!}$
  - **Ex:** There were 14 defective chips. In how many ways can I end up with three of them?

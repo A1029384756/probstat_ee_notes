@@ -13,4 +13,9 @@ $A-B$ is the set of all outcomes in $B$ that are not found in $A$.
 $B-A=\{7,9\}$
 
 ### Special Sets
-$S$ -> Sample space for a particular problem (all outcomes)
+$\{S\}$ → Sample space for a particular problem (all outcomes)
+$\{\varnothing\}$ → empty/null set (no outcomes)
+$A'$ → ($A$ complement) All things in $\{S\}$ that are not in A
+$S'=\varnothing$ ↔ $\varnothing'=S$
+For any $A$, $A \cup A' = S$
+For any $A$, $A \cap A' = \varnothing$

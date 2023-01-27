@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sets.md",
+                "file": "General Rules for Probabilities.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sets.md",
+                "file": "General Rules for Probabilities.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sets.md"
+                "file": "General Rules for Probabilities.md"
               }
             }
           }
@@ -164,11 +164,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1c8eeda372d23ab2",
+  "active": "06f6fc65cf8bd712",
   "lastOpenFiles": [
+    "Sets.md",
     "General Rules for Probabilities.md",
     "Combinatorics.md",
-    "Sets.md",
     "Equally Likely Probability.md",
     "Untitled.canvas",
     "Laws.md"
