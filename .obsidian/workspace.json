@@ -18,26 +18,21 @@
                 "source": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "197ad75fd34e2ed0",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "1c8eeda372d23ab2",
+            "id": "e485fd5bc127467e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sets.md",
+                "file": "Conditional Probability.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -103,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "General Rules for Probabilities.md",
+                "file": "Conditional Probability.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "General Rules for Probabilities.md",
+                "file": "Conditional Probability.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "General Rules for Probabilities.md"
+                "file": "Conditional Probability.md"
               }
             }
           }
@@ -164,12 +159,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "06f6fc65cf8bd712",
+  "active": "e485fd5bc127467e",
   "lastOpenFiles": [
-    "Sets.md",
     "General Rules for Probabilities.md",
-    "Combinatorics.md",
     "Equally Likely Probability.md",
+    "Combinatorics.md",
+    "Sets.md",
     "Untitled.canvas",
     "Laws.md"
   ]

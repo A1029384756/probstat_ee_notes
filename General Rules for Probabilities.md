@@ -5,7 +5,7 @@ $A$ is a [[Sets|set]] (collection)
 1. $P(S) = 1$
 2. Let $A$ be any event. $P(A) \geq 0$ (if you get negative values, you done goofed)
 3. The probability for any events $A,B$ → $P(A \cup B) = P(A) + P(B)$ ← Order is commutative
-  - **Ex:** $P(\text{rain or snow tomorrow})$ -> $P(\text{rain})=0.2, P(\text{snow but no rain})=0.1$,P(\text{rain or snow}=P(\text{rain})+P(\text{snow}-\text{rain})=0.2+0.1+0.3$
+  - **Ex:** $P(\text{rain or snow tomorrow})$ -> $P(\text{rain})=0.2, P(\text{snow but no rain})=0.1$,$P(\text{rain or snow}=P(\text{rain})+P(\text{snow}-\text{rain})=0.2+0.1+0.3$
 
 
 ### Consequences of these Rules
@@ -42,3 +42,4 @@ For **any** event $A$, $0 \leq P(A) \leq 1$.
 
 Let $B_1,B_2,B_3,...,B_k$ be a collection of events so that any $i \neq j$, $B_i \cap B_j = \varnothing$. (All sets are mutually exclusive)
 Thus, $P(B_1 \cup B_2 \cup B_3 \cup ... \cup B_k) = P(B_1) + P(B_2) + P(B_3) + ... + P(B_k) = \sum_{i=1}^{k} P(B_i)$
+

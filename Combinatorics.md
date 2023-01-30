@@ -100,7 +100,7 @@
 - **Fact:** What if $k=2$?
 	- $\frac{n!}{n_1!(n-n_1)!} = ({n \atop n_1}) = ({n \atop n_2})$
 
-### Hypergeometric Probability
+### Hyper-geometric Probability
 $N = \text{ population}$
 $R = \text{ num of objects in population that are distinguished}$
 $n = \text{ sample size, num of objects in population chosen}$
