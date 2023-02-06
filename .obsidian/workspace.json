@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "418d325f6f0acad3",
+        "id": "077999f91d772b2c",
         "type": "tabs",
         "children": [
           {
-            "id": "06f6fc65cf8bd712",
+            "id": "6ff9bbd2d0211549",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "General Rules for Probabilities.md",
+                "file": "Sets.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e485fd5bc127467e",
+            "id": "3fbd41f5243c2dd2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Conditional Probability.md",
+                "file": "Discrete Random Variables.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Conditional Probability.md",
+                "file": "Discrete Random Variables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Conditional Probability.md",
+                "file": "Discrete Random Variables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Conditional Probability.md"
+                "file": "Discrete Random Variables.md"
               }
             }
           }
@@ -159,12 +159,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e485fd5bc127467e",
+  "active": "3fbd41f5243c2dd2",
   "lastOpenFiles": [
-    "General Rules for Probabilities.md",
-    "Equally Likely Probability.md",
-    "Combinatorics.md",
     "Sets.md",
+    "Conditional Probability.md",
+    "Equally Likely Probability.md",
+    "General Rules for Probabilities.md",
+    "Combinatorics.md",
     "Untitled.canvas",
     "Laws.md"
   ]
