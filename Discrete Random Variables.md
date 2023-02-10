@@ -10,7 +10,7 @@
 
 $S = \{2,3,4,5\}$
 
-**Def:** The probability mass/distribution function is $p(x)=P(X=x)$
+**Def:** The probability mass/distribution function (probability that a certain value is hit) is $p(x)=P(X=x)$
 
 |$x$|$p(x)$|$F(x)$|
 |---|---|---|
@@ -48,5 +48,25 @@ $F(x) = P(X \leq x) = 1 - P(X > x) = 1 - P(\text{lose first x tosses}) = 1 - 0.5
 $F(4) = 1- 0.5^4=0.9375$
 
 $P(a < X \leq b)$ where $a$ and $b$ are constants?
+$P(a < X \leq b) = F(b) - F(a)$ 
 
 **Ex:** $P(\text{takes more than 1 but no more than 4 games to win toss}) = P(1 < X \leq  4)$
+
+**Def:** A geometric random variable $x$ is when we carry out a sequence of independent trials where $P(\text{success})=p(P(\text{fail})=1-p)$, then $x = \text{num trials until we first succeed}$.
+
+**Ex:** (coin), $p = 0.5$, (scratch-off) $p=0.2$
+
+> $p(x) = (1-p)^{x-1}p$
+> $F(x)=P(X \leq x) = p(1)+p(2)+...+p(x) = 1 - P(X > x)$
+> $= 1 - P(\text{first x trials fail})$
+> $= - (1-p)^x=F(x)$
+
+**Ex:** Scratch-off lottery
+$P(\text{need no more than 4 cards to win}) = P(x \leq 4) = F(4) = 1-0.8^4=1-0.4096=0.5904$
+$P\text{need to buy more than 2 but no more than 5}) = P(2 < x \leq 5) = F(5)-F(2)$
+
+> What is a *typical* value of a random variable?
+
+**Ex:** What is the typical number of A/C units that you have to work on?
+If given 1000 calls, on average, how many units did I work on?
+

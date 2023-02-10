@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "077999f91d772b2c",
+        "id": "2592a3b04fd38efc",
         "type": "tabs",
         "children": [
           {
-            "id": "6ff9bbd2d0211549",
+            "id": "5a639d3b504f65b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sets.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3fbd41f5243c2dd2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Discrete Random Variables.md",
+                "file": "Expectation.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Discrete Random Variables.md",
+                "file": "Expectation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Discrete Random Variables.md",
+                "file": "Expectation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Discrete Random Variables.md"
+                "file": "Expectation.md"
               }
             }
           }
@@ -159,9 +146,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3fbd41f5243c2dd2",
+  "active": "5a639d3b504f65b9",
   "lastOpenFiles": [
+    "Expectation.md",
     "Sets.md",
+    "Discrete Random Variables.md",
     "Conditional Probability.md",
     "Equally Likely Probability.md",
     "General Rules for Probabilities.md",
