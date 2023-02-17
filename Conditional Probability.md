@@ -29,3 +29,7 @@ $P(A \cap B) = P(A)P(B|A)=P(A)P(B)$
 $P(\text{all vowels})$
 $P(\text{first vowel} \cap \text{second vowel} \cap \text{third vowel} \cap \text{fourth vowel}) = P(1st)P(2nd|1st)P(3rd|2nd\cap first)P(4th | 1st \cap 2nd \cap 3rd)$
 These are independent of one another however => $P(1st)P(2nd)P(3rd)P(4th)=(\frac{5}{26})^4=0.00137$
+
+### Bayes Theorem
+$P(E|F) = \frac{P(E)P(F|E)}{P(F)}$
+but, $P(A) = \sum_{i=1}^nP(B_i)P(A|B_i)$
